@@ -1,14 +1,13 @@
 {
-  "name": "lavalink-replit",
-  "version": "3.0.0",
+  "name": "lavalink-heroku",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "DarrenOfficial",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "got": "^11.8.1"
-  },
   "scripts": {
-    "start": ""
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^15.0.1",
+    "got": "^12.0.1"
   }
 }

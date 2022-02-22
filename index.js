@@ -8,7 +8,7 @@ const start = () => {
     .stream("https://cdn.darrennathanael.com/jars/Lavalink.jar")
     .pipe(fs.createWriteStream(path))
     .on("finish", () => {
-      console.log("Lavalink.jar foi baixado!");
+      console.log("o lavalink foi baixado!");
       execSync("java -jar Lavalink.jar", { stdio: "inherit" });
     });
 };
