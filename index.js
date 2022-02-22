@@ -9,6 +9,7 @@ const start = () => {
     .pipe(fs.createWriteStream(path))
     .on("finish", () => {
       console.log("o lavalink foi baixado!");
+      execSync("npm install");
       execSync("java -jar Lavalink.jar", { stdio: "inherit" });
     });
 };
